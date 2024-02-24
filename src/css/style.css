@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 2668px;
+    background-color: #EDECE4;
+    border: 10px solid #cbc6b9;
+}    
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 800px;
+    margin-top: 77px;
+
+    /* margin-right: 360px;
+    margin-left: 360px; */
+}
+
+span{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+span {
+    display: flex;
+    font-size: 18px;
+    color: black;
+}
+
+.paragraph{
+    font-size: 18px;
+    color: black;
+}
+
+.markerGreen{
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: green;
+}
+
+.textHours{
+    width: 318px;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.textLocation{
+    width: 318px;
+    height: 82px;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textDecoration {
+    color: #988c77;
+    font-size: 18px;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 60px
+}
+
+.textWrapper > img{
+    width: 200px;
+    height: 200px;
+}
+
+.textWrapper > h1{
+    font-size: 160px;
+}
+
+main > img {
+    width: 600px;
+    height: 900px;
+}
