@@ -1,4 +1,4 @@
-## em desenvolvimento
+## 🚧 em desenvolvimento 🚧
 ![download](https://github.com/BrennonMeireles/le-scone/assets/141636246/dafe7d8f-5a22-4200-8988-9b36c1cbb28d)
 
 ## LE-SCONE - Website para Restaurante Gourmet
