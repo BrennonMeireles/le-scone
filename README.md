@@ -18,7 +18,6 @@ O projeto está estruturado de acordo com as melhores práticas de desenvolvimen
 - index.html: O arquivo HTML principal que contém a estrutura básica da página inicial do site.
 - style.css: O arquivo CSS onde são definidos os estilos para todos os elementos HTML.
 - img/: Pasta contendo as imagens utilizadas no site, como logotipo, fotos de pratos, etc.
-- fonts/: Pasta contendo as fontes utilizadas no projeto, se houver.
 - README.md: Este arquivo, que fornece uma visão geral do projeto, suas tecnologias e sua estrutura.
  
 ## Como Contribuir
