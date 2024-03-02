@@ -6,7 +6,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* font-family: "Space Mono", monospace; */
 }
 
 body{
@@ -90,13 +89,12 @@ span {
 
 main > img {
     width: 600px;
-    /* height: 900px; */
+    height: 750px;
 }
 
 section {
     width: 1000px;
     height: 800px;
-    border: 1px solid black;
     display: flex;
 }
 
@@ -134,7 +132,7 @@ li {
 }
 
 .main-menu > h3 {
-    font-size: 24 px;
+    font-size: 24px;
     font-family: "Aref Ruqaa", serif;
     padding-bottom: 26px;
     padding-left: 6 0px;
@@ -143,11 +141,21 @@ li {
 menu {
     display: flex;
     align-items: flex-start;
+    justify-content: space-around;
     height: 300px;
-    gap: 100px;
+    gap: 30px;
     margin-left: 60px;
 }
 
 menu > img{
     padding-top: 50px;
+}
+
+img {
+    transition: transform 0.9s;
+}
+
+img:hover{
+   transform: scale(1.05);
+   transition: 0.3;
 }
