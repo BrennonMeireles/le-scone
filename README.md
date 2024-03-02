@@ -17,7 +17,7 @@ O Le-Scone é um site fictício que representa um restaurante gourmet. O objetiv
 
 ### Protótipo no Figma
 
-Para visualizar o protótipo do Le-Scone desenvolvido no Figma, clique [aqui](https://www.figma.com/file/w4kLbLWB46WlRLSjSXmPMe/Le-Scone?type=design&node-id=0%3A1&mode=design&t=jow74SSBrj6KKL8J-1). (Substitua "#" pelo link real do seu protótipo no Figma)
+Para visualizar o protótipo do Le-Scone desenvolvido no Figma, clique [aqui](https://www.figma.com/file/w4kLbLWB46WlRLSjSXmPMe/Le-Scone?type=design&node-id=0%3A1&mode=design&t=jow74SSBrj6KKL8J-1).
 
 ### Estrutura do Projeto
 
