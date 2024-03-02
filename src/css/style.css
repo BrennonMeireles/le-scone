@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Space Mono", monospace; */
 }
 
 body{
     display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 2668px;
+    align-items: center;
+    flex-direction: column;
     background-color: #EDECE4;
     border: 10px solid #cbc6b9;
 }    
@@ -18,17 +23,12 @@ main {
     width: 1000px;
     height: 800px;
     margin-top: 77px;
-
-    /* margin-right: 360px;
-    margin-left: 360px; */
 }
 
 span{
     display: flex;
     align-items: center;
     gap: 30px;
-
-
 }
 
 span {
@@ -90,5 +90,64 @@ span {
 
 main > img {
     width: 600px;
-    height: 900px;
+    /* height: 900px; */
+}
+
+section {
+    width: 1000px;
+    height: 800px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.line{
+    width: 255px;
+    height: 2px;
+    background-color: black;
+}
+
+.title-menu{
+    display: flex;
+    align-items: center;
+    height: fit-content; /*tamanho da altura é o tamanho do conteudo*/
+    gap: 50px;
+    padding-left: 10px;
+}
+
+article > p, li > p {
+    font-size: 18px;
+    font-family: "PT Mono", monospace;
+    color: black;
+    height: 14px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: #988c77;
+    gap: 10px;
+    font-family: "Aref Ruqaa", serif;
+    font-size: 18px;
+    padding-bottom: 12px;
+
+}
+
+.main-menu > h3 {
+    font-size: 24 px;
+    font-family: "Aref Ruqaa", serif;
+    padding-bottom: 26px;
+    padding-left: 6 0px;
+}
+
+menu {
+    display: flex;
+    align-items: flex-start;
+    height: 300px;
+    gap: 100px;
+    margin-left: 60px;
+}
+
+menu > img{
+    padding-top: 50px;
 }
