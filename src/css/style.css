@@ -165,3 +165,7 @@ img:hover{
     display: flex;
     flex-direction: column;
 }
+
+.line-contact{
+    width: 225px;
+}
