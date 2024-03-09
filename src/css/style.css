@@ -94,7 +94,6 @@ main > img {
 
 section {
     width: 1000px;
-    height: 800px;
     display: flex;
 }
 
@@ -104,7 +103,7 @@ section {
     background-color: black;
 }
 
-.title-menu{
+.title-section{
     display: flex;
     align-items: center;
     height: fit-content; /*tamanho da altura é o tamanho do conteudo*/
@@ -158,4 +157,11 @@ img {
 img:hover{
    transform: scale(1.05);
    transition: 0.3;
+}
+
+/* section 2 */
+
+.contact {
+    display: flex;
+    flex-direction: column;
 }
