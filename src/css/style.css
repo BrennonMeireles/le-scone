@@ -234,37 +234,22 @@ map {
 
 /* Footer */
 
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
+footer > p {
+    color: white;
+    font-family: 'PT Mono' , sans-serif;
+}
 
+footer {
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
     height: 70px;
-    width: 100%;
-    background: #2A2426;
-    box-shadow: 0px 0px 0px 10px #2A2426;
-}
-
-footer .text-footer{
-    font-family: 'PT Mono';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
+    background-color: #2A2426;
     color: #EDECE4;
-
-    display: flex;
+    font-size: 18px;
     align-items: center;
-}
-
-footer > .rodape{
-    /* border: 1px solid #cbc6b9; */
-    width: 100%;
-    
-    gap: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    box-shadow: 0px 0px 0px 10px #2A2426;
 }
 
 .logo-lescone {
@@ -275,7 +260,7 @@ footer > .rodape{
 @media (max-width: 520px) {
 
     body{
-        width: 100%;
+        gap: 80px;
     }
 
     main > img {
@@ -296,5 +281,55 @@ footer > .rodape{
 
     .hero-wrapper :nth-child(4) {
         font-size: 100px;
+    }
+
+    section {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    article > p {
+        margin-left: 15px;
+    }
+
+    menu > img {
+        display: none;
+    }
+
+    menu {
+        justify-content: center;
+        
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    form {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    form > div :nth-child(3) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    map {
+        width: 90%;
+        align-self: center;
+    }
+
+    footer > p{
+        font-size: 12px;
+        font-family: 'PT Mono' , sans-serif;
+    }
+
+    footer > img {
+        width: 30px;
     }
 }
