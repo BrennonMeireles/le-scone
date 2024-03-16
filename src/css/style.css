@@ -31,19 +31,19 @@ span {
     gap: 30px;
 }
  
-.textDay {
+p {
     font-size: 18px;
     color: black;
 }
  
-.markerGreen {
+.marker-green {
     width: 12px;
     height: 12px;
     border-radius: 12px;
     background-color: green;
 }
  
-.textHours {
+.time-work {
     width: 318px;
     height: 82px;
     display: flex;
@@ -53,7 +53,7 @@ span {
     border-right: 2px solid black;
 }
  
-.textLocation {
+.text-location {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,18 +67,18 @@ span {
     font-size: 18px;
 }
  
-.textWrapper {
+.hero-wrapper {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
  
-.textWrapper > img {
+.hero-wrapper > img {
     width: 200px;
     height: 200px;
 }
  
-.textWrapper > h1 {
+.hero-wrapper > h1 {
     font-size: 200px;
 }
  
@@ -270,4 +270,31 @@ footer > .rodape{
 .logo-lescone {
     width: 45px;
     height: 26px;
+}
+
+@media (max-width: 520px) {
+
+    body{
+        width: 100%;
+    }
+
+    main > img {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-wrapper > img {
+        align-self: center; /* alinhar a imagem no centro */
+    }
+
+    .hero-wrapper :nth-child(4) {
+        font-size: 100px;
+    }
 }
