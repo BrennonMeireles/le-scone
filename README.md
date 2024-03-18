@@ -1,4 +1,4 @@
-## 🍽️ LE-SCONE - Website para Restaurante Gourmet 
+## LE-SCONE - Website para Restaurante Gourmet 
 
 Este é um projeto desenvolvido como parte do curso de Web Design no SENAI, onde foram explorados os fundamentos do HTML e CSS para criar um site para um restaurante gourmet fictício chamado Le-Scone. O objetivo do projeto foi aplicar os conhecimentos adquiridos no curso, bem como utilizar o Figma para prototipar a interface e ter uma visão de design antes da implementação.
 
